@@ -48,4 +48,4 @@ En la carpeta `samples/` encontrarás `ejemplo_nomina.csv` para probar todas las
 
 ---
 **Hecho con cariño por RockCode**
-*Colaboración técnica con IA*
+
