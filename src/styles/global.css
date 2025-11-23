@@ -1,0 +1,72 @@
+/* Global Styles for DataCleaner MVP */
+:root {
+  --rc-bg-dark: #020617;
+  --rc-text-main: #e5e7eb;
+  --rc-accent: #38bdf8;
+  --rc-accent-hover: #0ea5e9;
+}
+
+body {
+  background-color: var(--rc-bg-dark);
+  color: var(--rc-text-main);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Bootstrap Overrides for Dark Theme */
+.card {
+  background-color: #1e293b; /* Slate 800 */
+  border: 1px solid #334155;
+  color: #f8fafc;
+}
+
+.form-control, .form-select {
+  background-color: #0f172a; /* Slate 900 */
+  border-color: #334155;
+  color: #f1f5f9;
+}
+
+.form-control:focus, .form-select:focus {
+  background-color: #0f172a;
+  border-color: var(--rc-accent);
+  color: #f1f5f9;
+  box-shadow: 0 0 0 0.25rem rgba(56, 189, 248, 0.25);
+}
+
+.btn-primary {
+  background-color: var(--rc-accent);
+  border-color: var(--rc-accent);
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--rc-accent-hover);
+  border-color: var(--rc-accent-hover);
+  color: #0f172a;
+}
+
+/* Utilities */
+.text-accent {
+  color: var(--rc-accent) !important;
+}
+
+.bg-accent-subtle {
+  background-color: rgba(56, 189, 248, 0.1);
+}
+
+/* Steps Bar */
+.steps-bar .step {
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+.steps-bar .step.active {
+  opacity: 1;
+  font-weight: bold;
+  color: var(--rc-accent);
+}
+
+/* Accessibility Focus */
+:focus-visible {
+  outline: 2px solid var(--rc-accent);
+  outline-offset: 2px;
+}

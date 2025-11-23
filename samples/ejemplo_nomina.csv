@@ -1,0 +1,6 @@
+RUT;Nombre;Region;Notas
+11.111.111-1;JUAN PEREZ;RM;Caso estandar
+11111111-1;juan perez;Metropolitana;Duplicado
+22.222.222-K;Maria  Soto.;V Region;K y espacios
+123;Pedro Error;Texas;RUT invalido
+;Sin Rut;;Vacio
